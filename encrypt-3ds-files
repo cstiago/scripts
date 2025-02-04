@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for file in *.3ds; do
+	~/.venv/bin/python3 /opt/b3ds/b3DSEncrypt.py "$file"
+done
